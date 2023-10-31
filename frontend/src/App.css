@@ -4,6 +4,11 @@
   margin-top: 600px;
   width: 100%;
 }
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .card{
   flex: 0 0 calc(33.33% -20px);
   max-width:  calc(33.33% -20px);

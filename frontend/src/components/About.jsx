@@ -28,11 +28,12 @@ const About = () => {
 
 
   return (
+    <section>
     <div className='container mt-4 '>
       <div className="row ">
-        <div className="col ">
-          <div className="row">
-            <div className="col-sm-12 col-md-3 col-lg-4">
+        <div className="col">
+        
+            <div className=" cards">
 
         
       {data.map((d, i)=> (
@@ -53,16 +54,19 @@ const About = () => {
 
             </div>
           </div>
+          
         </div>
           ))}
+          </div>
             </div>
 
 
 </div>
-        </div>
-      </div>
+        
+      
 
     </div>
+    </section>
   )
 }
 
